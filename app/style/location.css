@@ -1,0 +1,29 @@
+#location-grid{
+    display: grid;
+     background-color: rgb(39, 39, 39);
+     grid-template-columns: repeat(2, minmax(250px, 1fr));
+     color: white;
+     padding: 7rem;
+}
+
+#map-border{
+    display: block;
+    background-color: black;
+    padding: 3rem;
+    width: 700px;
+    height: 550px;
+    align-content: center;
+    justify-content: center;
+}
+
+#location-text{
+    font-size: 25px;
+}
+
+#location-text-grid{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 2fr));
+    font-size: 17px;
+}
+
